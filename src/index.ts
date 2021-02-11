@@ -1,4 +1,4 @@
-import getDaily from "./reddit/getWSBDaily";
+import getDailyComments from "./reddit/getDailyComments";
 (async () => {
-   await getDaily()
+   await getDailyComments()
 })();
